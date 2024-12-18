@@ -1,0 +1,37 @@
+# Compilación y carpetas generadas por ESP-IDF
+build/
+*.elf
+*.map
+*.bin
+*.o
+*.a
+
+# Archivos de configuración del proyecto
+sdkconfig
+sdkconfig.old
+
+# Archivos de logs y depuración
+*.log
+*.tmp
+*.bak
+
+# Configuraciones de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+
+# Entornos virtuales de Python
+venv/
+.env/
+
+# Dependencias de Python instaladas localmente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos ocultos gener
